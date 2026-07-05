@@ -8,7 +8,7 @@ An autonomous, secure, multi-agent financial gateway built with FastAPI and the 
 
 * **Multi-Agent Orchestration**: A central `Orchestrator` agent manages the entire execution loop, delegating image parsing tasks to the specialized `VisionAgent` sub-agent.
 * **Real-time Currency Conversion**: Seamlessly integrates with a standard Model Context Protocol (MCP) Exchange Rates server to retrieve live rates and convert transactions automatically.
-* **Day 4 Security Guardrails**:
+* **Security Guardrails**:
   * **Indirect Prompt Injection Protection**: Recursively filters parsed textual values using strict regex patterns to stop malicious commands embedded inside images (e.g., instructions-override strings, command executions) from executing.
   * **Strict Schema Enforcement**: Ensures the parsed expense records conform perfectly to expected data types and structural formats before committing them.
 * **Robust Test Coverage**: Built-in end-to-end integration and security mock tests verify both processing and security containment flows.
