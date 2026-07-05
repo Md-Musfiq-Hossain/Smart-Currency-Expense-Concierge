@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "currency-converter": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "@modelcontextprotocol/server-exchange-rates"
+      ],
+      "env": {}
+    }
+  }
+}
